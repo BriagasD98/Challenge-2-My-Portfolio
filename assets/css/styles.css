@@ -128,6 +128,7 @@ header nav ul li a:hover {
     color: white;
     padding: 10px 5px;
     text-align: center;
+    display: block;
   }
 
   .flex-item.box-1 {
@@ -220,6 +221,7 @@ header nav ul li a:hover {
       header a {
         flex: 100%;
         text-align: center;
+        justify-content: center;
       }
       .banner div{
         width: 100%;
@@ -230,18 +232,25 @@ header nav ul li a:hover {
       }
       .flex-item {
         justify-content: center;
+        margin: 15px auto;
+      }
+      .about-me {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
       }
       .about-me img {
         flex: 100%;
         display: flex;
         flex-wrap: wrap;
-        margin-right: 0px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 15%;
+        margin: 0 auto;
         width: 50%;
         height: 50%;
-      } 
+        justify-content: center;
+      }
+      .about-me p {
+        margin: 10px 30px 10px 30px;
+      }
       .secondary-title {
         flex: 1 100%;
         text-align: center;
@@ -256,7 +265,20 @@ header nav ul li a:hover {
       }
   }
 
-  @media screen and(max-width:768px) {
+  @media screen and (max-width:768px) {
+      .flex-item span {
+        font-size: 60%;
+      }
+      .footer {
+        font-size: medium;
+      }
+    }
+
+  @media screen and(max-width:580px) {
+    .about-me p {
+      font-size: medium;
+    }
+    .flex-item a {
+      font-size: 60%;
+    }
   }
-    
-  
