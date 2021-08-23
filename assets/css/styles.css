@@ -117,6 +117,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    cursor: pointer;
   }
   
   /* for text area inside of flex item */
@@ -133,16 +134,20 @@ header nav ul li a:hover {
 
   .flex-item.box-1 {
     width: 93%;
-    background-image: url('../images/gopher-deployment.png');
+    background-image: url('../images/Gopher\ hook.png');
   }
+
   .box-1 a {
     margin: auto;
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
-    color: white;
+    color: rgba(233, 193, 0, 1);
     padding: 10px 5px;
     text-align: center;
     text-decoration: none;
+  }
+  .flex-item.box-1 span {
+    color: rgba(233, 193, 0, 1);
   }
   .flex-item.box-2 {
     background-image: url('../images/Run-Buddy-1.png');
@@ -152,7 +157,11 @@ header nav ul li a:hover {
     text-decoration: none;
   }
   .flex-item.box-3 {
-    background-image: url('../images/computer.jpg');
+    background-image: url('../images/gopher-deployment.png');
+    text-decoration: none;
+  }
+  .flex-item.box-3 a {
+    text-decoration: none;
   }
   .flex-item.box-4 {
     background-image: url('../images/data-1.jpeg');
