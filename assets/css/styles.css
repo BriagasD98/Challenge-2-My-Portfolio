@@ -137,6 +137,11 @@ header nav ul li a:hover {
     background-image: url('../images/Gopher\ hook.png');
   }
 
+  .flex-item.box-6 {
+    width: 93%;
+    background-image: url('../images/cherry-picker.png');
+  }
+
   .box-1 a {
     margin: auto;
     width: 100%;
